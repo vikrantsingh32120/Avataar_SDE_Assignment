@@ -1,0 +1,45 @@
+.featuredProducts {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+
+  .title {
+    font-size: 50px;
+    color: #000;
+    margin-bottom: -8px;
+    font-weight: 800;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    color: #000;
+  }
+
+  @media (max-width: 768px) {
+    .title {
+      font-size: 48px; /* Adjust font size for smaller screens */
+    }
+
+    .subtitle {
+      font-size: 18px; /* Adjust font size for smaller screens */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .title {
+      font-size: 36px; /* Further adjust font size for smaller screens */
+    }
+
+    .subtitle {
+      font-size: 16px; /* Further adjust font size for smaller screens */
+    }
+  }
+}
