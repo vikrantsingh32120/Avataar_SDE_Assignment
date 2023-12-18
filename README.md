@@ -1,6 +1,6 @@
 # Getting Started with Create React App
-Screenshots 
-
+Screenshots
+![image](https://github.com/vikrantsingh32120/Avataar_SDE_Assignment/assets/78558707/45c22b49-7c2f-40d0-a708-ac0839d5f04b)
 
 ### `npm i` 
 to install all the dependencies 
